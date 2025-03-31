@@ -1,0 +1,5 @@
+Abstract:
+This project is a basic network sniffer using Python and Scapy. The program helps how data flows in a network and network packets are structured. It works at Layer 3 (Network Layer) and filters only IP packets.
+
+Explanation:
+The script uses the sniff() function from Scapy to capture network packets. When a packet is received, the packet_handler() function extracts the source and destination IP addresses along with the protocol number. The filter="ip" option ensures that only IP packets are captured, making the sniffer efficient and easy to use. It requires the software to provide the output. The software is downloaded from https://nmap.org/npcap/
